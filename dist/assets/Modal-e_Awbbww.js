@@ -1,0 +1,8 @@
+import{D as e,n as t,t as n}from"./createLucideIcon-p7JFHOuK.js";import{l as r}from"./index-T_SfOHkR.js";var i=n(`x`,[[`path`,{d:`M18 6 6 18`,key:`1bl5f8`}],[`path`,{d:`m6 6 12 12`,key:`d8bk6v`}]]),a=e();function o({isOpen:e,onClose:n,title:o,children:s,size:c=`md`}){return(0,a.jsx)(r,{children:e&&(0,a.jsxs)(`div`,{className:`fixed inset-0 z-50 flex items-center justify-center p-4`,children:[(0,a.jsx)(t.div,{initial:{opacity:0},animate:{opacity:1},exit:{opacity:0},onClick:n,className:`absolute inset-0 bg-black/40 backdrop-blur-sm`}),(0,a.jsxs)(t.div,{initial:{opacity:0,scale:.9,y:20},animate:{opacity:1,scale:1,y:0},exit:{opacity:0,scale:.9,y:20},transition:{type:`spring`,damping:25,stiffness:300},className:`
+              relative w-full ${{sm:`max-w-md`,md:`max-w-lg`,lg:`max-w-2xl`,xl:`max-w-4xl`}[c]}
+              bg-white/90 dark:bg-surface-900/90
+              backdrop-blur-xl
+              border border-white/20 dark:border-white/[0.08]
+              rounded-2xl shadow-2xl
+              max-h-[85vh] overflow-hidden flex flex-col
+            `,children:[(0,a.jsxs)(`div`,{className:`flex items-center justify-between p-6 pb-4 border-b border-gray-200/50 dark:border-white/[0.06]`,children:[(0,a.jsx)(`h2`,{className:`text-lg font-bold text-gray-900 dark:text-white font-display`,children:o}),(0,a.jsx)(t.button,{whileHover:{scale:1.1},whileTap:{scale:.9},onClick:n,className:`p-2 rounded-xl hover:bg-gray-100 dark:hover:bg-white/5 text-gray-500`,children:(0,a.jsx)(i,{size:18})})]}),(0,a.jsx)(`div`,{className:`p-6 overflow-y-auto`,children:s})]})]})})}export{o as t};
